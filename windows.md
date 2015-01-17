@@ -27,6 +27,9 @@ Une fois téléchargé, double cliquez sur l'installateur. La fenêtre suivante 
 
 Changez la destination d'extraction pré-remplie par `C:\RubyDevKit` et cliquez sur le bouton "Extract".
 
+Ensuite, téléchargez le fichier [`rubygems-update-2.2.3.gem`](https://github.com/rubygems/rubygems/releases/download/v2.2.3/rubygems-update-2.2.3.gem)
+et placez le dossier dans `C:\RubyDevKit`.
+
 Maintenant, nous allons écrire des lignes de commande dans le terminal. Pour lancer le terminal, cliquez sur le bouton Démarrer en bas à gauche de Windows, et tapez `cmd`. Vous devriez voir apparaître le programme à lancer :
 
 ![](images/windows-run-cmd.png)
@@ -40,32 +43,41 @@ celle ci-dessous. Une fois la commande tapée, appuyez sur Entrée.
 cd C:\RubyDevKit
 ```
 
-Maintenant, tapez et executez la commande suivante :
+Maintenant, tapez et executez les commandes suivantes successivement :
 
 ```bash
 ruby dk.rb init
-```
-
-et enfin :
-
-```bash
 ruby dk.rb install
+gem install --local rubygems-update-2.2.3.gem
+update_rubygems --no-ri --no-rdoc
 ```
 
-Et voilà !
+Tapez maintenant:
+
+```
+gem --version
+```
+
+Si le résultat affiché est 2.2.3, vous avez tout bon !
 
 ## Middleman
 
 Maintenant vous pouvez rester dans le terminal et taper la commande suivante :
 
 ```bash
-gem install middleman
+gem install bundler middleman
 ```
 
-qui va vous installer Middleman. Attendez que le script se termine. Pour vérifier que c'est bon, tapez dans le terminal:
+qui va vous installer Middleman. Attendez que le script se termine (cela prend un peu de temps). Pour vérifier que c'est bon, tapez dans le terminal:
 
 ```bash
 middleman version
 ```
 
-Si le résultat est "Middleman 3.3.0" ou plus, bravo ! Vous êtes prêt à utiliser [Middleman](https://middlemanapp.com/).
+Si le résultat est "Middleman 3.3.7" ou plus, bravo ! Vous êtes prêt à utiliser [Middleman](https://middlemanapp.com/).
+
+## GitHub
+
+Rendez-vous sur [windows.github.com](http://windows.github.com), téléchargez le logiciel est installez-le.
+
+

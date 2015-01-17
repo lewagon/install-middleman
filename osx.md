@@ -40,9 +40,9 @@ Une fenêtre devrait s'ouvrir, Cliquez sur "Installer".
 ![](images/xcode-select-install.png)
 
 Vous devez accepter la license, puis attendre que le téléchargement et
-l'installation se termine (100 Mo environ).
+l'installation se termine (300 Mo environ).
 
-## Installation de Middleman
+## Installation de Ruby & Middleman
 
 Attendez bien que l'étape précédente soit complétée. Si vous avez fermé le terminal, réouvrez-le.
 Copiez la ligne ci dessous, collez-la dans le terminal et appuyez sur Entrée :
@@ -51,11 +51,11 @@ Copiez la ligne ci dessous, collez-la dans le terminal et appuyez sur Entrée :
 curl https://raw.githubusercontent.com/lewagon/install-middleman/master/scripts/homebrew-ruby-middleman.sh | bash
 ```
 
-Le script va s'arrêter et vous demander un `Password:`. Il s'agit du mot de passe de votre Mac,
-lorsque vous ouvrez votre session. Si vous tapez et vous ne voyez rien s'afficher,
+Le script va s'arrêter et vous demander un `Password:`. Il s'agit du **mot de passe de votre Mac**,
+celui que vous renseignez lorsque vous ouvrez votre session. Si vous tapez et vous ne voyez rien s'afficher,
 **c'est normal**, votre Mac ne bug pas, il prend bien en compte les caractères. Appuyez
 sur Entrée quand vous avez terminé de taper votre mot de passe.
-Si vous n'avez pas de mot de passe de session, appuyez juste sur Entrée.
+**Si vous n'avez pas de mot de passe de session**, appuyez juste sur Entrée.
 
 Attendez que le script se termine. Pour vérifier que c'est bon, tapez dans le terminal:
 
@@ -63,4 +63,9 @@ Attendez que le script se termine. Pour vérifier que c'est bon, tapez dans le t
 middleman version
 ```
 
-Si le résultat est "Middleman 3.3.0" ou plus, bravo ! Vous êtes prêt à utiliser [Middleman](https://middlemanapp.com/).
+Si le résultat est "Middleman 3.3.7" ou plus, bravo ! Vous êtes prêt à utiliser [Middleman](https://middlemanapp.com/).
+
+## GitHub
+
+Rendez-vous sur [mac.github.com](http://mac.github.com) pour téléchargez l'application GitHub for Mac, et l'installer (glissez-là dans
+le dossier Applications).

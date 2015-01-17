@@ -4,6 +4,7 @@ set -e
 
 echo "Step 1/5 - Installing Homebrew"
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" || true
+brew install git
 
 echo "Step 2/5 - Installing oh-my-zsh"
 uninstall_oh_my_zsh || true
@@ -21,9 +22,9 @@ source ${HOME}/.zshrc
 
 curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
 
-echo "Step 4/5 - Installing Ruby 2.1.2"
-rbenv install 2.1.2
-rbenv global 2.1.2
+echo "Step 4/5 - Installing Ruby 2.2.0"
+rbenv install 2.2.0
+rbenv global 2.2.0
 
 echo "Step 5/5 - Installing Middleman"
-gem install middleman
+gem install bundler middleman
