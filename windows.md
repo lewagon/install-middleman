@@ -5,8 +5,8 @@
 Téléchargez et installez Ruby. Si vous ne savez pas quelle version choisir
 ci-dessous, la première ira très bien :
 
-- [Ruby 2.0.0](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481.exe?direct)
-- [Ruby 2.0.0 x64](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p481-x64.exe?direct)
+- [Ruby 2.1.5](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.1.5.exe?direct)
+- [Ruby 2.1.5-x64](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.1.5-x64.exe?direct)
 
 Une fois téléchargé, double cliquez sur l'installeur. Attention au moment de l'installation,
 sur l'écran ci-dessous cochez la case du milieu:
