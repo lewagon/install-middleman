@@ -68,4 +68,9 @@ Si le résultat est "Middleman 3.3.7" ou plus, bravo ! Vous êtes prêt à utili
 ## GitHub
 
 Rendez-vous sur [mac.github.com](http://mac.github.com) pour téléchargez l'application GitHub for Mac, et l'installer (glissez-là dans
-le dossier Applications).
+le dossier `Applications`).
+
+## Sublime Text
+
+Téléchargez [Sublime Text 2](http://www.sublimetext.com/2) et installez-le (en le glissant dans le dossier `Applications`).
+Ensuite, suivez [ce tutoriel](https://github.com/lewagon/setup/blob/master/_partials/sublime_text_preferences.md) pour configurer Sublime Text correctement.

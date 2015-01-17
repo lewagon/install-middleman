@@ -81,3 +81,7 @@ Si le résultat est "Middleman 3.3.7" ou plus, bravo ! Vous êtes prêt à utili
 Rendez-vous sur [windows.github.com](http://windows.github.com), téléchargez le logiciel est installez-le.
 
 
+## Sublime Text
+
+Téléchargez [Sublime Text 2](http://www.sublimetext.com/2) et installez-le.
+Ensuite, suivez [ce tutoriel](https://github.com/lewagon/setup/blob/master/_partials/sublime_text_preferences.md) pour configurer Sublime Text correctement.
