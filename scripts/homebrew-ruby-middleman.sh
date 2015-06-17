@@ -22,9 +22,9 @@ source ${HOME}/.zshrc
 
 curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
 
-echo "Step 4/5 - Installing Ruby 2.2.0"
-rbenv install 2.2.0
-rbenv global 2.2.0
+echo "Step 4/5 - Installing Ruby 2.2.2"
+rbenv install 2.2.2
+rbenv global 2.2.2
 
 echo "Step 5/5 - Installing Middleman"
 gem install bundler middleman

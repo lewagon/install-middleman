@@ -63,7 +63,7 @@ Attendez que le script se termine. Pour vérifier que c'est bon, tapez dans le t
 middleman version
 ```
 
-Si le résultat est "Middleman 3.3.7" ou plus, bravo ! Vous êtes prêt à utiliser [Middleman](https://middlemanapp.com/).
+Si le résultat est "Middleman 3.3.12" ou plus, bravo ! Vous êtes prêt à utiliser [Middleman](https://middlemanapp.com/).
 
 ## GitHub
 
