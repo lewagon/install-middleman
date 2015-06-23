@@ -27,7 +27,7 @@ Une fois téléchargé, double cliquez sur l'installateur. La fenêtre suivante 
 
 Changez la destination d'extraction pré-remplie par `C:\RubyDevKit` et cliquez sur le bouton "Extract".
 
-Ensuite, téléchargez le fichier [`rubygems-update-2.2.3.gem`](https://github.com/rubygems/rubygems/releases/download/v2.2.3/rubygems-update-2.2.3.gem)
+Ensuite, téléchargez le fichier [`rubygems-update-2.4.8.gem`](https://rubygems.org/downloads/rubygems-update-2.4.8.gem)
 et placez le dossier dans `C:\RubyDevKit`.
 
 Maintenant, nous allons écrire des lignes de commande dans le terminal. Pour lancer le terminal, cliquez sur le bouton Démarrer en bas à gauche de Windows, et tapez `cmd`. Vous devriez voir apparaître le programme à lancer :
