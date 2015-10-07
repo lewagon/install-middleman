@@ -42,33 +42,80 @@ Une fenêtre devrait s'ouvrir, Cliquez sur "Installer".
 Vous devez accepter la license, puis attendre que le téléchargement et
 l'installation se termine (300 Mo environ).
 
-## Installation de Ruby & Middleman
+## Installation de Middleman
 
 Attendez bien que l'étape précédente soit complétée. Si vous avez fermé le terminal, réouvrez-le.
-Copiez la ligne ci dessous, collez-la dans le terminal et appuyez sur Entrée :
+Copiez-collez les commandes suivantes dans le terminal, puis appuyez sur Entrée :
+
+### Étape 1 - Homebrew
 
 ```bash
-curl https://raw.githubusercontent.com/lewagon/install-middleman/master/scripts/homebrew-ruby-middleman.sh | bash
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+
+Ce script va vous demander une confirmation (`Press RETURN`), confirmez en tapant une deuxième fois
+sur la touche Entrée.
+
+### Étape 2 - Oh-my-zsh
 
 Le script va s'arrêter et vous demander un `Password:`. Il s'agit du **mot de passe de votre Mac**,
 celui que vous renseignez lorsque vous ouvrez votre session. Si vous tapez et vous ne voyez rien s'afficher,
 **c'est normal**, votre Mac ne bug pas, il prend bien en compte les caractères. Appuyez
 sur Entrée quand vous avez terminé de taper votre mot de passe.
+
 **Si vous n'avez pas de mot de passe de session**, appuyez juste sur Entrée.
 
-Attendez que le script se termine. Pour vérifier que c'est bon, tapez dans le terminal:
+```bash
+rm -rf ~/.oh-my-zsh
+curl -L https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | bash
+zsh
+```
+
+Vous devriez avoir un terminal qui ressembe à ceci:
+
+![](images/on-my-zsh.png)
+
+Si ce n'est pas le cas, quittez (`⌘Q`) le terminal, et relancez-le. Si ce n'est toujours pas le cas,
+recommencez l'étape 2.
+
+### Étape 3 - Ruby & Middleman
+
+Dans le terminal, copiez-collez les lignes suivantes:
+
+```bash
+echo 'export RBENV_ROOT="${HOME}/.rbenv"'                           >> ${HOME}/.zshrc
+echo 'export PATH="${RBENV_ROOT}/bin:${PATH}"'                      >> ${HOME}/.zshrc
+echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi'  >> ${HOME}/.zshrc
+echo 'export LANG=en_US.UTF-8'                                      >> ${HOME}/.zshrc
+echo 'export LC_ALL=en_US.UTF-8'                                    >> ${HOME}/.zshrc
+source ${HOME}/.zshrc
+```
+
+Quittez (`⌘Q`) le terminal, puis relancez-le. Tapez ensuite :
+
+```bash
+curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
+```
+
+Enfin :
+
+```bash
+rbenv install 2.2.3 && rbeng global 2.2.3 && gem install bundler middleman
+```
+
+### Étape 4 - Vérification
+
+Pour vérifier que c'est bon, tapez dans le terminal:
 
 ```bash
 middleman version
 ```
 
-Si le résultat est "Middleman 3.3.12" ou plus, bravo ! Vous êtes prêt à utiliser [Middleman](https://middlemanapp.com/).
+Si le résultat est "Middleman 3.4.0" ou plus, bravo ! Vous êtes prêt à utiliser [Middleman](https://middlemanapp.com/).
 
 ## GitHub
 
-Rendez-vous sur [mac.github.com](http://mac.github.com) pour téléchargez l'application GitHub for Mac, et l'installer (glissez-là dans
-le dossier `Applications`).
+Rendez-vous sur [desktop.github.com](https://desktop.github.com/) pour télécharger et installer l'application GitHub Desktop.
 
 ## Sublime Text
 
