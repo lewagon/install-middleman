@@ -78,7 +78,7 @@ Vous devriez avoir un terminal qui ressembe à ceci:
 Si ce n'est pas le cas, quittez (`⌘Q`) le terminal, et relancez-le. Si ce n'est toujours pas le cas,
 recommencez l'étape 2.
 
-### Étape 3 - Ruby & Middleman
+### Étape 3 - Ruby
 
 Dans le terminal, copiez-collez les lignes suivantes:
 
@@ -100,10 +100,26 @@ curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rben
 Enfin :
 
 ```bash
-rbenv install 2.2.3 && rbeng global 2.2.3 && gem install bundler middleman
+rbenv install 2.2.3 && rbeng global 2.2.3
 ```
 
-### Étape 4 - Vérification
+Quittez (`⌘Q`) le terminal, puis relancez-le. Tapez ensuite :
+
+```bash
+ruby -v
+```
+
+Vous devriez voir la version `2.2.3` de Ruby, et **non pas** `2.0.0`.
+
+### Étape 4 - Middleman
+
+Maintenant, tapez ceci :
+
+```
+gem install bundler middleman
+```
+
+### Étape 5 - Vérification
 
 Pour vérifier que c'est bon, tapez dans le terminal:
 
