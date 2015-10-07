@@ -56,14 +56,18 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 Ce script va vous demander une confirmation (`Press RETURN`), confirmez en tapant une deuxième fois
 sur la touche Entrée.
 
-### Étape 2 - Oh-my-zsh
-
-Le script va s'arrêter et vous demander un `Password:`. Il s'agit du **mot de passe de votre Mac**,
+Ensuite, il va vous demander votre mot de passe. Il s'agit du **mot de passe de votre Mac**,
 celui que vous renseignez lorsque vous ouvrez votre session. Si vous tapez et vous ne voyez rien s'afficher,
 **c'est normal**, votre Mac ne bug pas, il prend bien en compte les caractères. Appuyez
 sur Entrée quand vous avez terminé de taper votre mot de passe.
 
 **Si vous n'avez pas de mot de passe de session**, appuyez juste sur Entrée.
+
+![](images/homebrew.png)
+
+### Étape 2 - Oh-my-zsh
+
+Même chose, il va (sans doute) vous demander votre mot de passe :
 
 ```bash
 rm -rf ~/.oh-my-zsh
