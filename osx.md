@@ -100,7 +100,7 @@ curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rben
 Enfin :
 
 ```bash
-rbenv install 2.2.3 && rbeng global 2.2.3
+rbenv install 2.2.3 && rbenv global 2.2.3
 ```
 
 Quittez (`⌘Q`) le terminal, puis relancez-le. Tapez ensuite :
