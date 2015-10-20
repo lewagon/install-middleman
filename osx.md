@@ -88,7 +88,7 @@ Dans le terminal, copiez-collez les lignes suivantes:
 
 ```bash
 echo 'export RBENV_ROOT="${HOME}/.rbenv"'                           >> ${HOME}/.zshrc
-echo 'export PATH="${RBENV_ROOT}/bin:${PATH}"'                      >> ${HOME}/.zshrc
+echo 'export PATH="./bin:${RBENV_ROOT}/bin:${PATH}"'                >> ${HOME}/.zshrc
 echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi'  >> ${HOME}/.zshrc
 echo 'export LANG=en_US.UTF-8'                                      >> ${HOME}/.zshrc
 echo 'export LC_ALL=en_US.UTF-8'                                    >> ${HOME}/.zshrc
