@@ -13,13 +13,9 @@ d'information. Ce qui nous intéresse, c'est la version de Mac.
 
 ![](images/about-mac.png)
 
-Si votre numéro de version commence par **10.6**, **10.7** ou **10.8**, votre Mac
-n'a pas la dernière version du système d'exploitation Apple, à savoir **Yosemite**.
-Si le numéro de version commence par **10.10**, pouvez passer à l'étape suivante directement.
-
-Vous pouvez le télécharger gratuitement sur [cette page](https://itunes.apple.com/fr/app/os-x-yosemite/id675248567?mt=12). Vous allez ouvrir l'App Store, et pouvoir télécharger
-le logiciel. Il s'installera automatiquement (cela peut prendre plusieurs heures en
-fonction de votre connexion Internet).
+Si votre numéro de version commence par un numéro strictement inférieur à **10.11**, votre
+système n'est pas à jour (pas sous _El Capitan_). Ouvrez l'App Store, et téléchargez / installez
+cette mise à jour système.
 
 ## Installation des outils de compilation
 
