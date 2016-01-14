@@ -50,6 +50,7 @@ Copiez-collez les commandes suivantes dans le terminal, puis appuyez sur Entrée
 ### Étape 1 - Homebrew
 
 ```bash
+test -d /usr/local && rm -rf /usr/local
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
