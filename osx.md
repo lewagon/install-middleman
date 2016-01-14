@@ -72,15 +72,15 @@ Même chose, il va (sans doute) vous demander votre mot de passe :
 ```bash
 rm -rf ~/.oh-my-zsh
 curl -L https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | bash
-zsh
 ```
+
+Quittez (`⌘Q`) le terminal, et relancez-le.
 
 Vous devriez avoir un terminal qui ressembe à ceci:
 
 ![](images/on-my-zsh.png)
 
-Si ce n'est pas le cas, quittez (`⌘Q`) le terminal, et relancez-le. Si ce n'est toujours pas le cas,
-recommencez l'étape 2.
+Si ce n'est pas le cas, recommencez l'étape 2.
 
 ### Étape 3 - Ruby
 
@@ -104,7 +104,7 @@ curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rben
 Enfin :
 
 ```bash
-rbenv install 2.2.3 && rbenv global 2.2.3
+rbenv install 2.3.0 && rbenv global 2.3.0
 ```
 
 Quittez (`⌘Q`) le terminal, puis relancez-le. Tapez ensuite :
@@ -113,7 +113,7 @@ Quittez (`⌘Q`) le terminal, puis relancez-le. Tapez ensuite :
 ruby -v
 ```
 
-Vous devriez voir la version `2.2.3` de Ruby, et **non pas** `2.0.0`.
+Vous devriez voir la version `2.3.0` de Ruby, et **non pas** `2.0.0`.
 
 ### Étape 4 - Middleman
 
@@ -131,7 +131,7 @@ Pour vérifier que c'est bon, tapez dans le terminal:
 middleman version
 ```
 
-Si le résultat est "Middleman 3.4.0" ou plus, bravo ! Vous êtes prêt à utiliser [Middleman](https://middlemanapp.com/).
+Si le résultat est "Middleman 4.0.0" ou plus, bravo ! Vous êtes prêt à utiliser [Middleman](https://middlemanapp.com/).
 
 ## GitHub
 
