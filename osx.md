@@ -64,11 +64,11 @@ sur Entrée quand vous avez terminé de taper votre mot de passe.
 
 ### Étape 2 - Oh-my-zsh
 
-Même chose, il va (sans doute) vous demander votre mot de passe :
+Même chose, il va vous demander votre mot de passe :
 
 ```bash
 rm -rf ~/.oh-my-zsh
-curl -L https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | bash
+curl -L http://install.ohmyz.sh | sh
 ```
 
 Quittez (`⌘Q`) le terminal, et relancez-le.
@@ -93,14 +93,11 @@ echo 'export LC_ALL=en_US.UTF-8'                                    >> ${HOME}/.
 source ${HOME}/.zshrc
 ```
 
-Quittez (`⌘Q`) le terminal, puis relancez-le. Tapez ensuite :
-
-```bash
+Ensuite, tapez la commande suivante. Elle devrait prendre 10 minutes. Ne vous inquiétez pas,
+ce n'est pas "bloqué", c'est normal.
+```
 brew install rbenv && rbenv install 2.3.0 && rbenv global 2.3.0
 ```
-
-(la commande précédente devrait prendre 10 minutes. Ne vous inquiétez pas,
-ce n'est pas "bloqué", c'est normal.)
 
 Quittez (`⌘Q`) le terminal, puis relancez-le. Tapez ensuite :
 
