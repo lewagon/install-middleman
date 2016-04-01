@@ -96,14 +96,11 @@ source ${HOME}/.zshrc
 Quittez (`⌘Q`) le terminal, puis relancez-le. Tapez ensuite :
 
 ```bash
-curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
+brew install rbenv && rbenv install 2.3.0 && rbenv global 2.3.0
 ```
 
-Enfin :
-
-```bash
-rbenv install 2.3.0 && rbenv global 2.3.0
-```
+(la commande précédente devrait prendre 10 minutes. Ne vous inquiétez pas,
+ce n'est pas "bloqué", c'est normal.)
 
 Quittez (`⌘Q`) le terminal, puis relancez-le. Tapez ensuite :
 
@@ -118,7 +115,8 @@ Vous devriez voir la version `2.3.0` de Ruby, et **non pas** `2.0.0`.
 Maintenant, tapez ceci :
 
 ```
-gem install bundler middleman
+gem install bundler
+gem install middleman -v 3.4.1
 ```
 
 ### Étape 5 - Vérification
@@ -129,7 +127,7 @@ Pour vérifier que c'est bon, tapez dans le terminal:
 middleman version
 ```
 
-Si le résultat est "Middleman 4.0.0" ou plus, bravo ! Vous êtes prêt à utiliser [Middleman](https://middlemanapp.com/).
+Si le résultat est "Middleman 3.4.1", bravo ! Vous êtes prêt à utiliser [Middleman](https://middlemanapp.com/).
 
 ## GitHub
 

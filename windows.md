@@ -65,7 +65,8 @@ Si le résultat affiché est 2.4.8, vous avez tout bon !
 Maintenant vous pouvez rester dans le terminal et taper la commande suivante :
 
 ```bash
-gem install bundler middleman
+gem install bundler
+gem install middleman -v 3.4.1
 ```
 
 qui va vous installer Middleman. Attendez que le script se termine (cela prend un peu de temps). Pour vérifier que c'est bon, tapez dans le terminal:
@@ -74,11 +75,11 @@ qui va vous installer Middleman. Attendez que le script se termine (cela prend u
 middleman version
 ```
 
-Si le résultat est "Middleman 3.3.12" ou plus, bravo ! Vous êtes prêt à utiliser [Middleman](https://middlemanapp.com/).
+Si le résultat est "Middleman 3.4.1" ou plus, bravo ! Vous êtes prêt à utiliser [Middleman](https://middlemanapp.com/).
 
 ## GitHub
 
-Rendez-vous sur [windows.github.com](http://windows.github.com), téléchargez le logiciel est installez-le.
+Rendez-vous sur [desktop.github.com](http://desktop.github.com), téléchargez le logiciel est installez-le.
 
 
 ## Sublime Text
