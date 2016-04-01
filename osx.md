@@ -96,7 +96,7 @@ source ${HOME}/.zshrc
 Quittez (`⌘Q`) le terminal, puis relancez-le. Tapez ensuite :
 
 ```bash
-brew install rbenv && rbenv install 2.3.0 && rbenv global 2.3.0
+brew install rbenv ruby-build && rbenv install 2.3.0 && rbenv global 2.3.0
 ```
 
 (la commande précédente devrait prendre 10 minutes. Ne vous inquiétez pas,
