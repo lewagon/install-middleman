@@ -5,8 +5,8 @@
 Téléchargez et installez Ruby. Si vous ne savez pas quelle version choisir
 ci-dessous, la première ira très bien :
 
-- [Ruby 2.2.2](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.2.exe?direct)
-- [Ruby 2.2.2 (64 bits)](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.2-x64.exe?direct)
+- [Ruby 2.3.1](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.1.exe?direct)
+- [Ruby 2.3.1 (64 bits)](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.1-x64.exe?direct)
 
 Une fois téléchargé, double cliquez sur l'installeur. Attention au moment de l'installation,
 sur l'écran ci-dessous cochez la case du milieu:
@@ -27,7 +27,7 @@ Une fois téléchargé, double cliquez sur l'installateur. La fenêtre suivante 
 
 Changez la destination d'extraction pré-remplie par `C:\RubyDevKit` et cliquez sur le bouton "Extract".
 
-Ensuite, téléchargez le fichier [`rubygems-update-2.4.8.gem`](https://rubygems.org/downloads/rubygems-update-2.4.8.gem)
+Ensuite, téléchargez le fichier [`rubygems-update-2.6.7.gem`](https://rubygems.org/downloads/rubygems-update-2.6.7.gem)
 et placez le dossier dans `C:\RubyDevKit`.
 
 Maintenant, nous allons écrire des lignes de commande dans le terminal. Pour lancer le terminal, cliquez sur le bouton Démarrer en bas à gauche de Windows, et tapez `cmd`. Vous devriez voir apparaître le programme à lancer :
@@ -48,8 +48,9 @@ Maintenant, tapez et executez les commandes suivantes successivement :
 ```bash
 ruby dk.rb init
 ruby dk.rb install
-gem install --local rubygems-update-2.4.8.gem
+gem install --local rubygems-update-2.6.7.gem
 update_rubygems --no-ri --no-rdoc
+gem uninstall rubygems-update -x
 ```
 
 Tapez maintenant:
@@ -58,7 +59,7 @@ Tapez maintenant:
 gem --version
 ```
 
-Si le résultat affiché est 2.4.8, vous avez tout bon !
+Si le résultat affiché est 2.6.7, vous avez tout bon !
 
 ## Middleman
 
@@ -75,7 +76,7 @@ qui va vous installer Middleman. Attendez que le script se termine (cela prend u
 middleman version
 ```
 
-Si le résultat est "Middleman 3.4.1" ou plus, bravo ! Vous êtes prêt à utiliser [Middleman](https://middlemanapp.com/).
+Si le résultat est "Middleman 3.4.1", bravo ! Vous êtes prêt à utiliser [Middleman](https://middlemanapp.com/).
 
 ## GitHub
 
